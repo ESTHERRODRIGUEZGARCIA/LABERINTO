@@ -22,5 +22,5 @@ def calculo_distancia(self, origen): #aquí necesito distancia entre dos puntos,
 p = Punto(1, 2, 3)
 p.mostrar()
 print("|p| =", p.calculo_modulo())
-print("distancia entre p y (3, 2, 1) es ", p.calculo_distancia(Punto(3, 2, 1)))
+print("distancia entre el origen y (3, 2, 1) es ", p.calculo_distancia(Punto(3, 2, 1)))
 
