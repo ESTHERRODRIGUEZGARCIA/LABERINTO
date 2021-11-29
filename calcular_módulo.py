@@ -12,11 +12,9 @@ def mostrar(self):
     print("Punto ({}, {}, {})".format(self.a, self.b, self.c))
 
 
-def calculo_modulo(p1,p2):
-    return sqrt((p1.a - p2.a)**2 + (p1.b - p2.b)**2)
+def calculo_modulo(a, b, c):
+    return (self.a**2 + self.b**2 + self.c**2) ** (1 / 2)
 
-punto1 = Punto(3, 2)
-punto2 = Punto(0, 0)
-
-print("La distancia del punto respecto al origen es de: ")
-print(calculo_modulo(punto1, punto2))
+def calculo_distancia((a, b, c), origen):
+    origen = (0, 0, 0)
+    return ()
