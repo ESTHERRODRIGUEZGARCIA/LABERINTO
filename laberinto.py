@@ -7,5 +7,5 @@ laberinto = [
     ['X', 'X', 'X', 'X', 'S']
     ]
 
-    class MiClase: 
-        """Documentación""" 
+p = punto(1, 2, 3) 
+p.mostrar()
