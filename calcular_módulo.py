@@ -17,4 +17,4 @@ def calculo_modulo(a, b, c):
 
 def calculo_distancia((a, b, c), origen):
     origen = (0, 0, 0)
-    return ()
+    return ((self.a - origen.a)**2 +(self.b - origen.b)**2 +(self.c - origen.c)**2)**(1/2)
