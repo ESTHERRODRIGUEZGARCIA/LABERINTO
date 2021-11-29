@@ -1,6 +1,5 @@
 #calcular el módulo del punto (distancia respecto al origen)
 
-from _typeshed import Self
 from math import sqrt
 
 class Punto:
@@ -14,8 +13,11 @@ def mostrar(self):
 
 
 def calculo_modulo(a, b, c):
-    return (Self.a**2 + Self.b**2 + Self.c**2) ** (1 / 2)
+    return (self.a**2 + self.b**2 + self.c**2) ** (1 / 2)
 
 def calculo_distancia(self, origen):
-    origen = (0, 0, 0)
-    return ((Self.a - origen.a)**2 +(Self.b - origen.b)**2 +(Self.c - origen.c)**2)**(1/2)
+    origen = Punto(0, 0, 0)
+    return ((self.a - origen.a)**2 +(self.b - origen.b)**2 +(self.c - origen.c)**2)**(1/2)
+
+p = Punto(1, 2, 3)
+p.mostrar()
