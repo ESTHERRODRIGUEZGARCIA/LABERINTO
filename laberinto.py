@@ -1,4 +1,5 @@
 #LABERINTO
+print("El lberinto es el siguiente: ")
 laberinto = [
     ['E', 'X', 'X', 'X', 'X'], 
     [' ', 'X', ' ', ' ', ' '],
