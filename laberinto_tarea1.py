@@ -1,5 +1,5 @@
 #LABERINTO
-print("El laberinto es el siguiente: ")
+print("El laberinto es el siguiente: \nSe empieza en E (Entrada); hay que llegar hasta S(Salida) \n")
     
 def tablero(laberinto, muro):
     tablero = [
