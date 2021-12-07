@@ -10,3 +10,6 @@ class Punto:
     def mostrar(self): 
         """Método temporal utilizado para mostrar nuestro punto""" 
         print("Punto ({}, {}, {})".format(self.x, self.y, self.z)) 
+
+p = Punto(1, 2, 3) 
+p.mostrar() 
