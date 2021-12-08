@@ -8,6 +8,10 @@ def recorrido(tablero):
         if mov != 'Arriba ' and fila + 1 < n and columnas != 'X':
             fila += 1
             print("Abajo")
+        elif mov != 'Abajo' and fila -1 > 0 and columnas != 'X':
+            fila -= 1
+            print("Arriba")
+        
 
 
 print("Solución: ", recorrido(tablero))    
