@@ -35,4 +35,4 @@ def recorrido(tablero):
             
 
 
-    print("Solución: ", recorrido(tablero))   
+print("Solución: ", recorrido(tablero))   
