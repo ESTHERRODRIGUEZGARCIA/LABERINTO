@@ -18,17 +18,17 @@ def recorrido(tablero):
     fila = columnas = 0
     mov = [' ']
     while (fila < n-1 and columnas < n-1):
-        if mov != 'Arriba ' and fila + 1 < n and columnas != 'X':
+        if mov != 'Arriba' and fila + 1 < n and columnas != 'X':
             fila += 1
             print("Abajo")
         elif mov != 'Abajo' and fila -1 > 0 and columnas != 'X':
             fila -= 1
             print("Arriba")
         elif mov != 'Izquierda' and fila -1 > 0 and columnas != 'X':
-            fila -= 1
+            columnas -= 1
             print("Derecha")
         elif mov != 'Derecha' and fila -1 > 0 and columnas != 'X':
-            fila -= 1
+            columnas -= 1
             print("izquierda")
         else:
             print("no hay salida")
