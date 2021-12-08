@@ -11,6 +11,14 @@ def recorrido(tablero):
         elif mov != 'Abajo' and fila -1 > 0 and columnas != 'X':
             fila -= 1
             print("Arriba")
+        elif mov != 'Izquierda' and fila -1 > 0 and columnas != 'X':
+            fila -= 1
+            print("Derecha")
+        elif mov != 'Derecha' and fila -1 > 0 and columnas != 'X':
+            fila -= 1
+            print("izquierda")
+        else:
+            print("no hay salida")
         
 
 
