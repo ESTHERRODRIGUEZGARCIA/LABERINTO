@@ -1,7 +1,20 @@
 #tarea 2 LABERINTO
 #sol: ['Abajo', 'Abajo', 'Abajo', 'Abajo', 'Derecha', 'Derecha', 'Arriba', 'Arriba', 'Derecha', 'Derecha', 'Abajo', 'Abajo', 'Abajo']
+def tablero(laberinto, muro):
+    tablero = [
+    [' E', ' X', ' X', ' X', ' X'], 
+    ['  ', ' X', '  ', '  ', '  '],
+    ['  ', ' X', '  ', ' X', '  '], 
+    ['  ', '  ', '  ', ' X', '  '], 
+    [' X', ' X', ' X', ' X', ' S']
+    ]
+
+muro = ((0,1), (0,2), (0,3), (0,4), (1,1), (2,1), (2,3), (3,3), (4,0), (4,1), (4,2), (4,3))
+
+
+
 def recorrido(tablero):
-    #Consiste en realizar el laberinto, no hay tablero
+        #Consiste en realizar el laberinto, no hay tablero
     fila = columnas = 0
     mov = [' ']
     while (fila < n-1 and columnas < n-1):
@@ -19,7 +32,7 @@ def recorrido(tablero):
             print("izquierda")
         else:
             print("no hay salida")
-        
+            
 
 
-print("Solución: ", recorrido(tablero))    
+    print("Solución: ", recorrido(tablero))   
